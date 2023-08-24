@@ -1,0 +1,166 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p{
+    font-size: 10px;
+}
+
+h1{
+    margin: 18px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+h3{
+    font-size: 11px;
+}
+
+
+.container-fluid{
+    margin: 142px 0 0;
+}
+
+.row{
+    max-width: 369px
+}
+
+.result{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 18px;
+}
+
+.your-result{
+    margin: 21px 0 0;
+    letter-spacing: .7px;
+}
+
+.results-result{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: 18px 29px 0;
+    max-width: 105px;
+    
+}
+.results-score {
+  position: relative;
+  display: block;
+}
+
+.results-actual{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 0 0;
+}
+
+.results-total{
+    font-size: 9px;
+    margin: -7px 0 0;
+    padding: 0 0 18px;
+}
+
+.result-desc{
+    font-size: 9.2px;
+    padding: 9px 14px 10px;
+    line-height: 11.4px;
+}
+
+.summary{
+     box-shadow: 0px 15px 10px -15px grey;
+   border-radius: 0 0 18px 0;
+}
+
+.summary-text{
+    margin: 21px 0 0 9px;
+    font-weight: bold;
+    letter-spacing: .5px;
+}
+
+.summary-scores{
+   
+    
+}
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, .05);
+    margin: 15px 0 0 10px;
+    
+}
+
+.memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, .05);
+    margin: 9px 0 0 10px;
+    
+}
+
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, .05);
+    margin: 9px 0 0 10px;
+}
+
+.visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, .05);
+    margin: 9px 0 0 10px;
+}
+
+.summary-img{
+    width: 10.1px;
+    margin: 0 5px 0 0;
+}
+
+.summary-scores-text{
+    font-size: 9px;
+    font-weight: bold;
+    padding: 7.5px 0 6px 5px;
+    
+    border-radius: 4px;
+}
+
+.rctn-scr-bld{
+    font-weight: bold;
+    color: black;
+    padding: 0 0 0 38px;
+}
+
+.mmry-scr-bld{
+    font-weight: bold;
+    color: black;
+    padding: 0 0 0 39px;
+}
+
+.vrbl-scr-bld{
+    font-weight: bold;
+    color: black;
+    padding: 0 0 0 47px;
+}
+
+.vsl-scr-bld{
+    font-weight: bold;
+    color: black;
+    padding: 0 0 0 49px;
+}
+
+.scr-nrml{
+    color: gray;
+    opacity: .7;
+    padding: 0 0 0 2px;
+}
+
+.cont-bttn{
+    margin: 21px 0 21px 8.5px;
+    border-radius: 20px;
+    font-size: 9.5px;
+    padding: 6px 53px 6px 53px; 
+}
+
+.cont-bttn:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media (max-width: 575px){
+    .container-fluid{
+        max-width: 150px;
+        margin: 30px auto;
+    }
+}
